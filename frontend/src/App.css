@@ -5,8 +5,8 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
@@ -36,247 +36,6 @@ body {
   opacity: 0.9;
 }
 
-.container {
-  background: white;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  padding: 30px;
-  margin-bottom: 30px;
-}
-
-.registration-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-}
-
-.events-list {
-  background: #f8f9fa;
-  padding: 25px;
-  border-radius: 15px;
-  border: 2px solid #e9ecef;
-}
-
-.events-list h2 {
-  color: #495057;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #dee2e6;
-}
-
-.event-card {
-  background: white;
-  padding: 20px;
-  margin-bottom: 15px;
-  border-radius: 10px;
-  border-left: 4px solid #667eea;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
-}
-
-.event-card:hover {
-  transform: translateY(-2px);
-}
-
-.event-card h3 {
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.event-card p {
-  margin: 5px 0;
-  color: #666;
-}
-
-.registration-form {
-  background: #f8f9fa;
-  padding: 25px;
-  border-radius: 15px;
-  border: 2px solid #e9ecef;
-}
-
-.registration-form h2 {
-  color: #495057;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #dee2e6;
-}
-
-.registration-form-content {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-}
-
-.form-group label {
-  font-weight: 600;
-  margin-bottom: 8px;
-  color: #495057;
-}
-
-.form-group input,
-.form-group select {
-  padding: 12px;
-  border: 2px solid #dee2e6;
-  border-radius: 8px;
-  font-size: 16px;
-  transition: border-color 0.3s;
-}
-
-.form-group input:focus,
-.form-group select:focus {
-  outline: none;
-  border-color: #667eea;
-}
-
-.submit-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border: none;
-  padding: 15px;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
-.submit-btn:hover:not(:disabled) {
-  transform: translateY(-2px);
-}
-
-.submit-btn:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-
-.ticket-section {
-  text-align: center;
-}
-
-.new-registration-btn {
-  background: #28a745;
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  margin-bottom: 30px;
-  transition: background 0.3s;
-}
-
-.new-registration-btn:hover {
-  background: #218838;
-}
-
-.ticket {
-  background: white;
-  border: 3px solid #667eea;
-  border-radius: 20px;
-  padding: 30px;
-  max-width: 600px;
-  margin: 0 auto;
-  box-shadow: 0 15px 35px rgba(102, 126, 234, 0.3);
-  position: relative;
-}
-
-.ticket-header {
-  text-align: center;
-  margin-bottom: 30px;
-  padding-bottom: 20px;
-  border-bottom: 2px dashed #dee2e6;
-}
-
-.ticket-header h2 {
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.ticket-number {
-  background: #667eea;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 50px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  display: inline-block;
-}
-
-.ticket-body {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.ticket-section {
-  text-align: left;
-}
-
-.ticket-section h3 {
-  color: #495057;
-  margin-bottom: 15px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #dee2e6;
-}
-
-.ticket-info {
-  background: #f8f9fa;
-  padding: 15px;
-  border-radius: 10px;
-}
-
-.ticket-info p {
-  margin: 8px 0;
-  padding: 5px 0;
-  border-bottom: 1px solid #eee;
-}
-
-.ticket-info p:last-child {
-  border-bottom: none;
-}
-
-.ticket-info strong {
-  color: #495057;
-  min-width: 120px;
-  display: inline-block;
-}
-
-.ticket-qr {
-  text-align: center;
-  padding: 20px;
-  background: #f8f9fa;
-  border-radius: 10px;
-}
-
-.qr-placeholder {
-  display: inline-block;
-}
-
-.qr-code {
-  font-size: 80px;
-  margin-bottom: 10px;
-}
-
-.ticket-footer {
-  text-align: center;
-  padding: 20px;
-  background: #e9ecef;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-.ticket-footer p {
-  margin: 5px 0;
-  color: #495057;
-}
-
 .footer {
   text-align: center;
   color: white;
@@ -293,11 +52,11 @@ body {
   .registration-section {
     grid-template-columns: 1fr;
   }
-  
+
   .header h1 {
     font-size: 2rem;
   }
-  
+
   .container {
     padding: 20px;
   }
