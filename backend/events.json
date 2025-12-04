@@ -2,8 +2,8 @@
   "events": [
     {
       "id": "1",
-      "title": "Tech Conference 2024",
-      "date": "2024-12-15",
+      "title": "Tech Conference 2025",
+      "date": "2025-12-15",
       "time": "09:00",
       "location": "Convention Center",
       "description": "Annual technology conference with industry leaders",
@@ -12,7 +12,7 @@
     {
       "id": "2",
       "title": "Music Festival",
-      "date": "2024-11-20",
+      "date": "2025-11-20",
       "time": "18:00",
       "location": "Central Park",
       "description": "Open air music festival",
@@ -21,7 +21,7 @@
     {
       "id": "3",
       "title": "Startup Workshop",
-      "date": "2024-10-30",
+      "date": "2025-10-30",
       "time": "14:00",
       "location": "Business Hub",
       "description": "Learn how to launch your startup",
@@ -36,7 +36,7 @@
       "phone": "234567",
       "eventId": "2",
       "eventTitle": "Music Festival",
-      "eventDate": "2024-11-20",
+      "eventDate": "2025-11-20",
       "eventTime": "18:00",
       "eventLocation": "Central Park",
       "registrationDate": "2025-12-03",
@@ -49,11 +49,37 @@
       "phone": "4456",
       "eventId": "2",
       "eventTitle": "Music Festival",
-      "eventDate": "2024-11-20",
+      "eventDate": "2025-11-20",
       "eventTime": "18:00",
       "eventLocation": "Central Park",
       "registrationDate": "2025-12-03",
       "ticketNumber": "TICKET-1764789340983"
+    },
+    {
+      "id": "dbb33a1c-576a-430d-8efe-07cf34a7822a",
+      "fullName": "dafdsa",
+      "email": "asdf@fdsa",
+      "phone": "579259733",
+      "eventId": "1",
+      "eventTitle": "Tech Conference 2025",
+      "eventDate": "2025-12-15",
+      "eventTime": "09:00",
+      "eventLocation": "Convention Center",
+      "registrationDate": "2025-12-04",
+      "ticketNumber": "TICKET-1764838086810"
+    },
+    {
+      "id": "f7819aea-0d17-4eab-b6c0-e1a0cba66d57",
+      "fullName": "caxz",
+      "email": "cdsa@fdsa",
+      "phone": "579259733",
+      "eventId": "1",
+      "eventTitle": "Tech Conference 2025",
+      "eventDate": "2025-12-15",
+      "eventTime": "09:00",
+      "eventLocation": "Convention Center",
+      "registrationDate": "2025-12-04",
+      "ticketNumber": "TICKET-1764838464217"
     }
   ]
 }
